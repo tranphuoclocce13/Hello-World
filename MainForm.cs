@@ -21,8 +21,7 @@ namespace AssigmentForm
         private Thread transferServerThread = null;
         private Thread transferClientThread = null;
         private const int BUFFER_SIZE = 1024;
-        private int serverPort = 19999;
-        private int transferPort = 29999;
+
         private string IPConnect = null;
         private int portConnect = 0;
         private TcpListener chatListener = null;
